@@ -1,4 +1,5 @@
-hello = "Hello"
-name  = input("What's your name?\n")
-greeting = hello + " "+ name
-print(greeting)
+def greeting(name):
+    print("Hello", name)
+
+input_name  = input("What's your name?\n")
+greeting(input_name)
