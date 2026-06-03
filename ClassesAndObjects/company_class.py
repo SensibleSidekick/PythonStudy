@@ -1,4 +1,4 @@
-from employee_class import Employee
+from ClassesAndObjects.employee_class import Employee
 
 class Company:
     def __init__(self):
